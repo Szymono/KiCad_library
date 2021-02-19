@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# tack-switch_#1
+#
+DEF tack-switch_#1 SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "tack-switch_#1" 0 -160 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -100 0 4 1 1 10 N
+C 100 0 4 1 1 10 N
+P 2 0 1 0 -100 0 -100 -100 N
+P 2 0 1 10 -100 0 80 50 N
+P 2 0 1 0 0 30 0 60 N
+P 2 0 1 10 100 0 80 0 N
+P 2 0 1 0 100 0 100 -100 N
+P 4 0 1 10 -80 140 -80 170 80 170 80 140 N
+P 2 1 1 0 0 85 0 110 N
+P 2 1 1 0 0 135 0 170 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+X 3 3 -200 -100 100 R 50 50 1 1 P
+X 4 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# tack-switch_#2
+#
+DEF tack-switch_#2 SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "tack-switch_#2" 0 -60 50 H V C CNN
+F2 "#switches:tact-switch_2p_#1" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -100 0 4 1 1 10 N
+C 100 0 4 1 1 10 N
+P 2 0 1 10 -100 0 80 50 N
+P 2 0 1 0 0 30 0 50 N
+P 2 0 1 10 100 0 80 0 N
+P 6 0 1 10 -70 130 -70 140 -70 170 70 170 70 150 70 130 N
+P 2 1 1 0 0 70 0 100 N
+P 2 1 1 0 0 120 0 170 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

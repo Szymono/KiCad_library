@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3  11/09/2020-16:59:44
+# Converted with eagle-lbr2kicad-1.0.ulp Version:3.10  Build Date:20-April-2017  USE THIS PROGRAM AT YOUR OWN RISK
+# devicesets = 1  devicescount =1
+#
+# 4PX1MM     # 4PX1MM
+#
+DEF 4PX1MM M 0 40 Y N 1 L N
+F0 "M" -250 325 45 H V L BNN
+F1 "4PX1MM" -250 -300 45 H V L BNN
+F2 "4Peagle_1.5MM-4X1" 30 150 20 H I C CNN
+$FPLIST
+ *1.5MM-4X1*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -250 -200 50 -200 N
+P 2 1 0 0 50 -200 50 300 N
+P 2 1 0 0 50 300 -250 300 N
+P 2 1 0 0 -250 300 -250 -200 N
+T 0 -116 453 56 0 1 0 ">INFO"  Normal 0 C C
+X 1 1 -100 200 100 R 40 40 1 1 P I
+X 2 2 -100 100 100 R 40 40 1 1 P I
+X 3 3 -100 0 100 R 40 40 1 1 P I
+X 4 4 -100 -100 100 R 40 40 1 1 P I
+ENDDRAW
+ENDDEF
+#End Library
