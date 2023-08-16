@@ -1,8 +1,0 @@
-(module back_tarara (layer F.Cu) (tedit 5FEB2C38)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value back_tarara (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)

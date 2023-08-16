@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP tack-switch_#1
-D Push button switch, generic, two pins
-K switch normally-open pushbutton push-button
-F ~
-$ENDCMP
-#
-#End Doc Library
